@@ -11,6 +11,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 html {
@@ -25,8 +26,7 @@ html {
   justify-content: space-between;
   align-items: center;
   background-color: black;
-  padding: 0 2rem;
-  margin: 0 auto;
+  padding: 0 1rem;
   width: 100%;
   max-width: 100rem;
   max-height: auto;
@@ -87,14 +87,13 @@ a:hover {
 .menu-btn {
   position: fixed;
   right: 1.25rem;
-  top: 20px;
+  top: 25px;
   z-index: 2001;
   text-align: center;
   line-height: 50px;
   height: 50px;
   width: 50px;
   background: #f64b93;
-
   border-radius: 50px;
   color: #fff;
   font-size: 20px;
@@ -234,7 +233,7 @@ h3 {
 }
 
 .container {
-  max-width: 100%;
+  width: auto;
 }
 
 .span-yellow {
@@ -542,10 +541,6 @@ video {
   .container {
     max-width: 100%;
     padding: 0.6rem;
-  }
-
-  #about {
-    max-width: 100%;
   }
 
   .text-3 {
